@@ -9,7 +9,6 @@ $(".btn").on("click",function(){
   playSound(userChosenColour);
 console.log(userChosenColour);
 });
-
 function nextSequence() {
   level++;
   $("#level-title").text(" Level "+level);
@@ -23,8 +22,6 @@ function nextSequence() {
 function fade (color){
   $("#"+color).fadeIn(100).fadeOut(100).fadeIn(100);
 }
-
-console.log(gamePattern);
 
 function playSound(name){
   var audio = new Audio("sounds/" + name + ".mp3");
