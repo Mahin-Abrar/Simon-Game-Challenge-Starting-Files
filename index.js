@@ -33,3 +33,6 @@ $(document).keypress(nextSequence);
 // $("#level-title").on(keypress,function(){
   
 // })
+// function checkAnswer(currenLevel) {
+
+// }
